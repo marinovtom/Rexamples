@@ -26,3 +26,17 @@ bmi <- data.frame(
 )
 
 print(bmi)
+
+library(datasets)
+head(iris)
+
+plot(iris$Species)
+plot(iris$Sepal.Length, iris$Sepal.Width)
+
+plot(dnorm, -5, 5, col="#cc0000", lwd=10)
+plot(bmi)
+plot(factor(bmi$gender), bmi$height)
+plot(bmi$height, bmi$weight)
+plot(c(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13), c(0, 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096), "l")
+plot(sin, -pi, pi)
+plot(cos, -pi, pi)
